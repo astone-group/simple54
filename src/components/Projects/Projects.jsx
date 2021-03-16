@@ -60,6 +60,8 @@ const Projects = () => {
                       <h3 className="project-wrapper__text-title">{title6 || 'Project Title'}</h3>
                       
 
+                      <p>If you are interested in the work that we do and you have something in mind or a current challenge, even something small, we are happy to chat and to help you however we can 🖤</p>
+
                     </div>
                   </Fade>
                 </Col>
@@ -95,7 +97,6 @@ const Projects = () => {
                   </Fade>
                 </Col>
                 <Col>
-                <p>If you are interested in the work that we do and you have something in mind or a current challenge, even something small, we are happy to chat and to help you however we can 🖤</p>
                 </Col>
 
               </Row>
