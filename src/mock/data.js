@@ -28,7 +28,7 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'whatwedo.png',
+    img: ' ',
     title: 'Psychometric Assessment',
     title2: 'Leadership Coaching and Development',
     title3: 'Team Performance and Dynamics',
