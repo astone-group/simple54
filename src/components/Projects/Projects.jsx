@@ -26,52 +26,44 @@ const Projects = () => {
     <section id="projects">
       <Container>
         <div className="project-wrapper">
-          <Title title="Projects" />
+          <Title title="WHAT WE LOVE TO DO"/>
+          <Title title="{ our expertise and passion }"/>
+          
+          <Fade
+                    left={isDesktop}
+                    bottom={isMobile}
+                    duration={800}
+                    delay={300}
+                    distance="50px"
+                  >
+            </Fade>
+        
           {projects.map((project) => {
-            const { title, info, info2, url, repo, img, id } = project;
+            const { title, title2, title3, title4, title5, title6, info, info2, url, repo, img, id } = project;
 
             return (
               <Row key={id}>
-                <Col lg={4} sm={12}>
+                <Col lg={6} sm={12}>
                   <Fade
                     left={isDesktop}
                     bottom={isMobile}
-                    duration={1000}
-                    delay={500}
+                    duration={800}
+                    delay={300}
                     distance="30px"
                   >
                     <div className="project-wrapper__text">
                       <h3 className="project-wrapper__text-title">{title || 'Project Title'}</h3>
-                      <div>
-                        <p>
-                          {info ||
-                            'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
-                        </p>
-                        <p className="mb-4">{info2 || ''}</p>
-                      </div>
-                      <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="cta-btn cta-btn--hero"
-                        href={url || '#!'}
-                      >
-                        See Live
-                      </a>
+                      <h3 className="project-wrapper__text-title">{title2 || 'Project Title'}</h3>
+                      <h3 className="project-wrapper__text-title">{title3 || 'Project Title'}</h3>
+                      <h3 className="project-wrapper__text-title">{title4 || 'Project Title'}</h3>
+                      <h3 className="project-wrapper__text-title">{title5 || 'Project Title'}</h3>
+                      <h3 className="project-wrapper__text-title">{title6 || 'Project Title'}</h3>
+                      
 
-                      {repo && (
-                        <a
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="cta-btn text-color-main"
-                          href={repo}
-                        >
-                          Source Code
-                        </a>
-                      )}
                     </div>
                   </Fade>
                 </Col>
-                <Col lg={8} sm={12}>
+                <Col lg={6} sm={12}>
                   <Fade
                     right={isDesktop}
                     bottom={isMobile}
@@ -80,12 +72,7 @@ const Projects = () => {
                     distance="30px"
                   >
                     <div className="project-wrapper__image">
-                      <a
-                        href={url || '#!'}
-                        target="_blank"
-                        aria-label="Project Link"
-                        rel="noopener noreferrer"
-                      >
+                      
                         <Tilt
                           options={{
                             reverse: false,
@@ -102,16 +89,21 @@ const Projects = () => {
                           <div data-tilt className="thumbnail rounded">
                             <ProjectImg alt={title} filename={img} />
                           </div>
+                          
                         </Tilt>
-                      </a>
                     </div>
                   </Fade>
                 </Col>
+                <Col>
+                <p>If you are interested in the work that we do and you have something in mind or a current challenge, even something small, we are happy to chat and to help you however we can 🖤</p>
+                </Col>
+
               </Row>
-            );
+);
+
           })}
         </div>
-      </Container>
+                </Container>
     </section>
   );
 };
