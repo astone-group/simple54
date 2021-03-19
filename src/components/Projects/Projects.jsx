@@ -52,12 +52,12 @@ const Projects = () => {
                     distance="30px"
                   >
                     <div className="project-wrapper__text">
-                      <h3 className="project-wrapper__text-title">{title || 'Project Title'}</h3>
-                      <h3 className="project-wrapper__text-title">{title2 || 'Project Title'}</h3>
-                      <h3 className="project-wrapper__text-title">{title3 || 'Project Title'}</h3>
-                      <h3 className="project-wrapper__text-title">{title4 || 'Project Title'}</h3>
-                      <h3 className="project-wrapper__text-title">{title5 || 'Project Title'}</h3>
-                      <h3 className="project-wrapper__text-title">{title6 || 'Project Title'}</h3>
+                      <h2 className="project-wrapper__text-title">{title || 'Project Title'}</h2>
+                      <h2 className="project-wrapper__text-title">{title2 || 'Project Title'}</h2>
+                      <h2 className="project-wrapper__text-title">{title3 || 'Project Title'}</h2>
+                      <h2 className="project-wrapper__text-title">{title4 || 'Project Title'}</h2>
+                      <h2 className="project-wrapper__text-title">{title5 || 'Project Title'}</h2>
+                      <h2 className="project-wrapper__text-title">{title6 || 'Project Title'}</h2>
                       
 
                       <p>If you are interested in the work that we do and you have something in mind or a current challenge, even something small, we are happy to chat and to help you however we can 🖤</p>

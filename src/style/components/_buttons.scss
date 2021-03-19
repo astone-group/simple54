@@ -47,7 +47,7 @@
   }
 
   &:hover {
-    -webkit-text-fill-color: rgb(234, 230, 228);
+    -webkit-text-fill-color: #333333;
     text-decoration: none;
     // Responsive Button hover hero style
     @include respond(phone) {
@@ -60,17 +60,17 @@
   }
 }
 
-/* Resume Style */
+/* CONTACT US STYLE*/
 .cta-btn--resume {
-  color: #333333;
-  border: 2px solid #333333;
+  color: rgb(234, 230, 228);
+  border: 2px solid rgb(234, 230, 228);
 
   &::after {
-    background: #333333;
+    background: rgb(234, 230, 228);
   }
 
   &:hover {
-    color: rgb(234, 230, 228);
+    color: #6593ce;
     text-decoration: none;
 
     &::after {
