@@ -16,13 +16,15 @@
     margin-bottom: 13rem;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 
     @include respond(phone) {
-      margin-bottom: 0rem;
+      margin-bottom: 0rem; 
     }
 
     .row {
       margin-bottom: 4rem;
+      justify-content: center;
 
       @include respond(phone) {
         margin-bottom: 4rem;

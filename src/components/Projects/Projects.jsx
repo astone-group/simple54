@@ -43,7 +43,7 @@ const Projects = () => {
 
             return (
               <Row key={id}>
-                <Col lg={6} sm={12}>
+                <Col>
                   <Fade
                     left={isDesktop}
                     bottom={isMobile}
@@ -64,39 +64,6 @@ const Projects = () => {
 
                     </div>
                   </Fade>
-                </Col>
-                <Col lg={6} sm={12}>
-                  <Fade
-                    right={isDesktop}
-                    bottom={isMobile}
-                    duration={1000}
-                    delay={1000}
-                    distance="30px"
-                  >
-                    <div className="project-wrapper__image">
-                      
-                        <Tilt
-                          options={{
-                            reverse: false,
-                            max: 8,
-                            perspective: 1000,
-                            scale: 1,
-                            speed: 300,
-                            transition: true,
-                            axis: null,
-                            reset: true,
-                            easing: 'cubic-bezier(.03,.98,.52,.99)',
-                          }}
-                        >
-                          <div data-tilt className="thumbnail rounded">
-                            <ProjectImg alt={title} filename={img} />
-                          </div>
-                          
-                        </Tilt>
-                    </div>
-                  </Fade>
-                </Col>
-                <Col>
                 </Col>
 
               </Row>
