@@ -1,9 +1,9 @@
 #projects {
-  background-color: #FFFFFF;
-  color: #000000;
+  background-color: rgb(234, 230, 228);
+  color: #333333;
   margin-top: -15rem;
   padding-top: 18rem;
-  background: url("../../src/images/crayons.jpg");
+  //background: url("../../src/images/malena2.jpg");
   background-position: center;
   background-size: cover; 
 
@@ -44,7 +44,7 @@
 
       
       &-title {
-        font-weight: 900;
+       // font-weight: 900;
         margin-bottom: 1.8rem;
         font-size: $mid-font-size;
        /* -webkit-text-stroke: 1px black; 

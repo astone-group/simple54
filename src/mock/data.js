@@ -33,9 +33,9 @@ export const projectsData = [
     title2: 'Leadership Coaching and Development',
     title3: 'Team Performance and Dynamics',
     title4: '360s and other Assessments for Development',
-    title5: 'Wellbeing',
+    title5: 'Positive Mental Health and Wellbeing',
     title6: 'Career Alignment and Transition',
-    info: 'ttt', 
+    info: '', 
     
   },
 
