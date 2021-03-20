@@ -27,8 +27,7 @@ const Projects = () => {
       <Container>
         <div className="project-wrapper">
           <Title title="WHAT WE LOVE TO DO"/>
-          <Title title="{ our expertise and passion }"/>
-          
+          <Title title="{ Our expertise and passion }"/>
           <Fade
                     left={isDesktop}
                     bottom={isMobile}

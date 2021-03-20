@@ -47,7 +47,7 @@
   }
 
   &:hover {
-    -webkit-text-fill-color: #333333;
+    -webkit-text-fill-color: #ffffff;
     text-decoration: none;
     // Responsive Button hover hero style
     @include respond(phone) {
@@ -66,11 +66,11 @@
   border: 2px solid rgb(234, 230, 228);
 
   &::after {
-    background: rgb(234, 230, 228);
+    background: #ffffff;
   }
 
   &:hover {
-    color: #6593ce;
+    color: #000000;
     text-decoration: none;
 
     &::after {
