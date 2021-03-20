@@ -62,15 +62,15 @@
 
 /* CONTACT US STYLE*/
 .cta-btn--resume {
-  color: rgb(234, 230, 228);
-  border: 2px solid rgb(234, 230, 228);
+  color: #ffffff;
+  border: 2px solid #ffffff;
 
   &::after {
     background: #ffffff;
   }
 
   &:hover {
-    color: #000000;
+    color: #ec008b;
     text-decoration: none;
 
     &::after {

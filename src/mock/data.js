@@ -17,7 +17,7 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'logo_black.png',
+  img: 'logo_pink.png',
   paragraphOne: 'ASTONE Melbourne',
   paragraphTwo: 'We partner',
   paragraphThree: 'We believe',
