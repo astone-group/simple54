@@ -10,15 +10,15 @@ export const headData = {
 // HERO DATA
 export const heroData = {
   title: '',
-  name: 'ASTONE.',
+  name: 'ODx',
   subtitle: 'Partnering with you to develop leaders, teams and organisations.',
   cta: 'Learn more',
 };
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'logo_pink.png',
-  paragraphOne: 'ASTONE Melbourne',
+  img: 'logo_odx_pink.png',
+  paragraphOne: 'ODx',
   paragraphTwo: 'We partner',
   paragraphThree: 'We believe',
   resume: '', // if no resume, the button will not show up
