@@ -2,14 +2,14 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: 'ASTONE | Melbourne', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  title: 'ODx | Melbourne', // e.g: 'Name | Developer'
+  lang: 'en', // e.g: en, es, fr, jp
+  description: 'ODx is a specialist Organisational Development and Business Psychology consultancy based in Melbourne, Australia.', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
-  title: '',
+  title: ' ',
   name: 'ODx',
   subtitle: 'Partnering with you to develop leaders, teams and organisations.',
   cta: 'Learn more',
@@ -89,7 +89,7 @@ export const contactData = {
   info: ' ',
   cta: 'Would you like to work with us? Great!',
   btn: 'Let\'s chat',
-  email: '@',
+  email: 'hello@odx.group',
 };
 
 // FOOTER DATA
