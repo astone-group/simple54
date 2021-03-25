@@ -2,7 +2,7 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: 'ODx | Let\'s chat', // e.g: 'Name | Developer'
+  title: 'ODx | Melbourne', // e.g: 'Name | Developer'
   lang: 'en', // e.g: en, es, fr, jp
   description: 'ODx is a specialist Organisational Development and Business Psychology consultancy based in Melbourne, Australia.', // e.g: Welcome to my website
 };
