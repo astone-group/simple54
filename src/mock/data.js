@@ -99,7 +99,7 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'linkedin',
-      url: 'http://www.linkedin.com',
+      url: 'https://www.linkedin.com/company/odx-melbourne/',
     },
    
   ],
