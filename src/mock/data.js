@@ -9,18 +9,19 @@ export const headData = {
 
 // HERO DATA
 export const heroData = {
-  title: ' ',
-  name: 'ODx',
-  subtitle: 'Partnering with you to develop leaders, teams and organisations.',
-  cta: 'Learn more',
+ // title: ' ',
+ // name: 'ODx',
+ // subtitle: 'Partnering with you to develop leaders, teams and organisations.',
+  img: 'ODxB23.png',
+  cta: '⌄',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'logo_odx_pink.png',
-  paragraphOne: 'ODx',
-  paragraphTwo: 'We partner',
-  paragraphThree: 'We believe',
+  paragraphOne: 'WE ARE',
+  paragraphTwo: 'WE PARTNER',
+  paragraphThree: 'WE BELIEVE',
   resume: '', // if no resume, the button will not show up
 };
 
@@ -29,7 +30,7 @@ export const projectsData = [
   {
     id: nanoid(),
     img: ' ',
-    title: 'Psychometric Assessment',
+    title: ' Psychometric Assessment ',
     title2: 'Leadership Coaching and Development',
     title3: 'Team Performance and Dynamics',
     title4: '360s and other Assessments for Development',
@@ -85,12 +86,28 @@ export const projectsData = [
     
 
 // CONTACT DATA
+//export const contactData = {
+//info: ' ',
+//cta: 'ODx',
+//btn: 'Let\'s chat',
+//email: 'hello@odx.group',
+//};
 export const contactData = {
-  info: ' ',
-  cta: 'Would you like to work with us? Great!',
-  btn: 'Let\'s chat',
-  email: 'hello@odx.group',
+  networks: [
+        
+    {
+      id: nanoid(),
+      name: 'envelope',
+      url: 'mailto:hello@odx.group',
+    },
+    {
+      id: nanoid(),
+      name: 'linkedin',
+      url: 'https://www.linkedin.com/company/odx-melbourne/',
+    },
+  ],
 };
+
 
 // FOOTER DATA
 export const footerData = {
@@ -101,7 +118,11 @@ export const footerData = {
       name: 'linkedin',
       url: 'https://www.linkedin.com/company/odx-melbourne/',
     },
-   
+    {
+      id: nanoid(),
+      name: 'linkedin',
+      url: 'https://www.linkedin.com/company/odx-melbourne/',
+    },
   ],
 };
 

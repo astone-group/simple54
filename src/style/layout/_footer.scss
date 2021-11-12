@@ -1,6 +1,6 @@
 .footer {
-  background-color: #333333;
-  color: $white-color;
+  background-color: #FBD3C4;
+  color: #C32E78;
   padding: 4.8rem 0;
 
   @include respond(phone) {
@@ -8,19 +8,20 @@
   }
 
   &__text {
-    color: darken(white, 50%);
+    color: #C32E78;
     font-size: 1.3rem;
 
     a {
-      color: darken(white, 50%);
+      color: #C32E78;
       font-size: 1.3rem;
       transition: all 0.4s;
       display: inline-block;
       background-color: dark-grey;
+      
 
       &:hover,
       &:active {
-        color: $primary-color;
+        color: #C32E78;
         -webkit-box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
         box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
       }
@@ -32,7 +33,7 @@
     margin-bottom: 1rem;
     border: 0;
     width: 50%;
-    border-top: 2px solid rgba(255, 255, 255, 0.1);
+    border-top: 0px solid rgba(255, 255, 255, 0.1);
   }
 }
 
@@ -59,12 +60,12 @@
 }
 
 .back-to-top i {
-  color: #FFFFFF;
+  color: #C32E78;
   margin: 1rem 0 $default-font-size;
   transition: all 0.2s ease-in;
   cursor: pointer;
 
   &:hover {
-    transform: translateY(-2px);
+    transform: translateY(-3px);
   }
 }

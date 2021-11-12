@@ -27,7 +27,6 @@ const About = () => {
   return (
     <section id="about">
       <Container>
-        <Title title="ABOUT US" />
         <Row className="about-wrapper">
           <Col md={3} sm={6}>
             <Fade bottom duration={1000} delay={600} distance="30px">
@@ -37,22 +36,22 @@ const About = () => {
           <Col md={6} sm={12}>
             <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="40px">
             <div className="about-wrapper__info">
-                <p className="about-wrapper__info-text" align="center"><strong>
+                <p className="about-wrapper__info-text" align="center">
                   {paragraphOne ||
-                    ''}</strong> is a specialist Organisational Development and Business Psychology consultancy based in Melbourne, Australia.
+                    ''} a specialist Organisational Development and Business Psychology consultancy based in Melbourne, Australia.
                 </p>
-                <p className="about-wrapper__info-text"><strong>
+             <p><i className="fa fa-times fa-1x" aria-hidden="true" /></p>
+                <p className="about-wrapper__info-text">
                   {paragraphTwo ||
-                    ''}</strong> with our clients to develop tailored, expert solutions across Assessment, Leadership Coaching & Development, Team Performance, Wellbeing and Career Alignment, that are plugged into and aligned with strategy.
+                    ''} with our clients to develop tailored, expert solutions across Assessment, Leadership & Team Performance, Wellbeing and Career that are aligned with strategy.
                 </p>
-                <p className="about-wrapper__info-text"><strong>
-                  {paragraphThree || ''}</strong> that awesome teams and organisational cultures are best built by attending effectively, thoughtfully and persistently to these elements.
+                <p><i className="fa fa-times fa-1x" aria-hidden="true" /></p>
+                <p className="about-wrapper__info-text">
+                  {paragraphThree || ''} that awesome teams and organisational cultures are best built by attending effectively, thoughtfully and persistently to these elements.
                 </p>
                
               </div>
-              <div className="about-wrapper__image"> 
-                           <AboutImg alt="profile picture" filename={img} align="center"/>
-                          </div>
+              <Title title="" />
               </Fade>
           </Col>
         </Row>

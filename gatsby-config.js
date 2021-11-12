@@ -39,7 +39,7 @@ module.exports = {
         short_name: `ODx`,
         start_url: `/`,
         background_color: `#fff`,
-        theme_color: `#02aab0`,
+        //theme_color: `#000000`,
         display: `standalone`,
         icon: 'src/images/favicon.png',
       },

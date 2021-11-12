@@ -1,9 +1,9 @@
 #projects {
-  background-color: #ffffff;
-  color: #000000;
+  background-color: #52A7CC;
+  color: #F6EFE3;
   margin-top: -15rem;
-  padding-top: 18rem;
-  //background: url("../../src/images/malena2.jpg");
+  //padding-top: 18rem;
+  padding: 16rem 0 7rem 0;
   background-position: center;
   background-size: cover; 
 
@@ -13,10 +13,13 @@
   }
 
   .project-wrapper {
-    margin-bottom: 13rem;
+    margin-bottom: 10rem;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    font-family: 'Galada', cursive;
+    font-size: $big-font-size;
+
 
     @include respond(phone) {
       margin-bottom: 0rem; 
@@ -32,7 +35,7 @@
     }
 
     &__text {
-      text-align: left;
+      text-align: center;
       font-weight: 500;
       justify-content: center;
       align-items: center;

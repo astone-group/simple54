@@ -7,30 +7,30 @@ import Title from '../Title/Title';
 const Contact = () => {
   const { contact } = useContext(PortfolioContext);
   const { info, cta, btn, email } = contact;
+  const { networks } = contact;
 
   return (
     <section id="contact">
       <Container>
-        <Title title="CONTACT US" />
         <Fade bottom duration={1000} delay={800} distance="30px">
-          <div className="contact-wrapper">
-            <p className="contact-wrapper__text">
-            <p>
-                          {info ||
-                            ' '}
-                        </p>
-              {cta || 'Would you like to work with us? Great!'}
-            </p>
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              className="cta-btn cta-btn--resume"
-              href={email ? `mailto:hello@odx.group` : 'https://www.odx.group'}
-            >
-              {btn || "Let's chat"}
-            </a>
-            
-          </div>
+        <div className="social-links">
+          {networks &&
+            networks.map((network) => {
+              const { id, name, url } = network;
+              return (
+                <a
+                  key={id}
+                  href={url || ''}
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  aria-label={name}
+                >
+                  <i className={`fa fa-${name || 'refresh'} fa-inverse`} />
+                </a>
+              );
+            })}
+        </div>
+
         </Fade>
       </Container>
     </section>

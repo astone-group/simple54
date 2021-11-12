@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Roboto:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Galada&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab+Highlight:wght@400;700&display=swap');
 
 
 h1 {
@@ -12,8 +16,10 @@ h2 {
 }
 
 h3 {
-  font-weight: 700;
-  font-family: 'Roboto', sans-serif;
+font-family: 'Creepster', sans-serif;
+font-size: $mid-font-size;
+
+//font-weight: 700;
 }
 
 h4 {
@@ -24,13 +30,13 @@ h4 {
 }
 
 p {
-  font-family: 'Roboto', sans-serif;
-  font-size: $default-font-size;
+  font-family: 'Bebas Neue', cursive;
+  font-size: $mid-font-size;
 }
 
 
 a {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Bebas Neue', cursive;
   font-size: $default-font-size;
 }
 

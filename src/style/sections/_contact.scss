@@ -1,14 +1,13 @@
 #contact {
   //background-image: linear-gradient(135deg, $primary-color 0%, $secondary-color 100%);
   //background-color:#000000;ec008b
-  background-color:#ec008b;
+  background-color:#FBD3C4;
   -webkit-clip-path: polygon(0 15vh, 100% 0, 100% 100%, 0 100%);
   clip-path: polygon(0 15vh, 100% 0, 100% 100%, 0 100%);
-  padding: 15rem 0 10rem 0;
+  padding: 12rem 0 4rem 0;
   margin-top: -15rem;
   margin-bottom: -1px;
-  color: #ffffff;
-  //background: url("../../src/images/malena2.jpg");
+  color: #C32E78;
 
   @include respond(tab-land) {
     padding: 10rem 0;
@@ -16,6 +15,7 @@
     margin-top: 0;
     -webkit-clip-path: none;
   }
+
 
   .contact-wrapper {
     margin-top: 3.2rem;
@@ -29,13 +29,36 @@
     &__text,
     a {
       font-size: 2.4rem;
-      font-family: 'Montserrat', sans-serif;
+      font-family: 'Creepster', sans-serif;
 
 
       // Responsive for contact text
       @include respond(phone) {
         font-size: 2rem;
       }
+    }
+  }
+}
+
+.social-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+
+  a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #C32E78;
+    font-size: 3rem;
+    width: 5rem;
+    height: 5rem;
+    margin: $default-font-size $default-font-size;
+    transition: all 0.2s ease-in;
+
+    &:hover {
+      transform: translateY(-5px);
     }
   }
 }

@@ -19,28 +19,13 @@ const Footer = () => {
             <i className="fa fa-angle-up fa-2x" aria-hidden="true" />
           </Link>
         </span>
-        <div className="social-links">
-          {networks &&
-            networks.map((network) => {
-              const { id, name, url } = network;
-              return (
-                <a
-                  key={id}
-                  href={url || ''}
-                  rel="noopener noreferrer"
-                  target="_blank"
-                  aria-label={name}
-                >
-                  <i className={`fa fa-${name || 'refresh'} fa-inverse`} />
-                </a>
-              );
-            })}
-        </div>
+<p> </p>
         <hr />
         <p className="footer__text">
-          © {new Date().getFullYear()} {'ODx | Melbourne'}
+          © {new Date().getFullYear()} {''}
         </p>
-
+        <h3>ODx</h3>
+        <i className="fa fa-hand-peace-o fa-2x" aria-hidden="true" />
         {isEnabled && <GithubButtons />}
       </Container>
     </footer>
