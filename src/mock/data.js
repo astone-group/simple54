@@ -18,7 +18,7 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'logo_odx_pink.png',
+  //img: 'logo_odx_pink.png',
   paragraphOne: 'WE ARE',
   paragraphTwo: 'WE PARTNER',
   paragraphThree: 'WE BELIEVE',
