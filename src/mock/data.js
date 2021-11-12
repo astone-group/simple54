@@ -12,7 +12,7 @@ export const heroData = {
  // title: ' ',
  // name: 'ODx',
  // subtitle: 'Partnering with you to develop leaders, teams and organisations.',
-  img: 'ODxB23.png',
+  img: 'ODxB23c.png',
   cta: '⌄',
 };
 
