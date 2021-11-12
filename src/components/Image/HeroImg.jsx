@@ -13,7 +13,7 @@ const HeroImg = ({ filename, alt }) => (
               relativePath
               name
               childImageSharp {
-                fixed(width: 380) {
+                fixed(width: 330) {
                   ...GatsbyImageSharpFixed
                 }
               }
