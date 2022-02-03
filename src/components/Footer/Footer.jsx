@@ -25,7 +25,7 @@ const Footer = () => {
           © {new Date().getFullYear()} {''}
         </p>
         <h3>ODx</h3>
-        <i className="fa fa-hand-peace-o fa-2x" aria-hidden="true" />
+        <i className="fa fa-bolt fa-2x" aria-hidden="true" />
         {isEnabled && <GithubButtons />}
       </Container>
     </footer>
